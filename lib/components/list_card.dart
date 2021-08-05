@@ -41,6 +41,7 @@ class ListCard extends StatelessWidget {
                       children: [
                         Text(
                           article['title'].toString(),
+                          textAlign: TextAlign.right,
                           maxLines: 3,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
